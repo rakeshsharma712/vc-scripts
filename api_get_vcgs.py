@@ -112,7 +112,7 @@ targetPassword = getpass.getpass("Password: ")
 #this script is suppose to be run by a non-operator/partner user
 is_op=False
 
-clientTarget = VcoRequestManager('vco12-usvi1.velocloud.net', verify_ssl=False)
+clientTarget = VcoRequestManager(vcoIP, verify_ssl=False)
 clientTarget.authenticate(targetUsername, targetPassword, is_operator=is_op)
 
 
