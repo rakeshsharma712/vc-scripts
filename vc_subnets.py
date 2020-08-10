@@ -100,13 +100,13 @@ current_time = time.strftime("%m.%d.%y.%H.%M", time.localtime())
 # export VCO_IP=10.123.16.79 ; export VCO_USER=lab@lab.com ; export VCO_PASS='Velocloud123!#'
 
 print "Enter credentials and VCO"
-# vcoIP = raw_input("VCO: ")
-# targetUsername = raw_input("Username: ")
-# targetPassword = getpass.getpass("Password: ")
+vcoIP = raw_input("VCO: ")
+targetUsername = raw_input("Username: ")
+targetPassword = getpass.getpass("Password: ")
 
-vcoIP = "10.148.63.176"
-targetUsername = "rakesh@lab.com"
-targetPassword = "Velocloud123"
+#vcoIP = "10.148.63.176"
+#targetUsername = "rakesh@lab.com"
+#targetPassword = "Velocloud123"
 
 # print "Username: [%s], password [%s] vco [%s]" % (targetUsername, targetPassword, vcoIP)
 
