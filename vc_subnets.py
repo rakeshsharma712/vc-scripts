@@ -1,13 +1,9 @@
 #!/usr/bin/env/python
 #
-# api_edge_vcg.py
+# vc_subnets.py
 #
-# A simple VCO API client to retrieve VCG list assigned to each edge
+# A simple VCO API client to retreive subnets configured on every edge
 #
-# author: Vladimir F de Sousa - vfrancadesou@vmware.com
-# date: June 2020
-#
-# Use at your own risk
 #
 # please note that VMWare API and Support team - do not guarantee this samples
 # It is provided - AS IS - i.e. while we are glad to answer questions about API usage
